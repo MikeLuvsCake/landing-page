@@ -68,3 +68,53 @@
     border: none;
     outline: none;
 }
+
+#random-text{
+    background-color: #f9faf8;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+.gallery-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.gallery { 
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.gallery-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    border: solid #3882f6;
+}
+/*.quote p, .username{
+    padding: 5em 10em;
+    background-color: #e5e7eb;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}*/
+
+
+
+
