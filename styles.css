@@ -10,8 +10,8 @@
 
 .header, #header-logo,
 .header-link{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
     padding-top: 10px;
     display: flex;
     align-items: flex-start;
@@ -86,9 +86,19 @@
     align-items: center;
     gap: 24px;
 }
+
+.gallery-header {
+    padding-top: 25px;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 10px 24px;
+}
+
 .gallery { 
     display: flex;
-    gap: 16px;
+    gap: 30px;
     align-items: center;
     justify-content: space-around;
     width: 600px;
@@ -98,23 +108,76 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .gallery-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 12px;
     border: solid #3882f6;
 }
-/*.quote p, .username{
-    padding: 5em 10em;
+
+.quote-here{
     background-color: #e5e7eb;
-    font-family: "Roboto";
+    padding: 100px 100px;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
-}*/
+}
 
+.username {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
 
+.call-to-action-outer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 370px;
+    margin-right: 370px;
+    font-family: "Roboto";
+    color: #f9faf8;
+    padding: 16px 32px;
+}
 
+.banner-title {
+    font-size: 24px;
+    font-family: "Roboto";
+    margin: 4px;
+}
 
+.sign-up {
+    width: 120px;
+    height: 30px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 50px 50px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
